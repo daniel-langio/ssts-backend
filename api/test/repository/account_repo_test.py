@@ -7,6 +7,3 @@ def save_and_delete_account():
     assert save(account)
     assert delete(account.id)
     assert save(account)
-
-if __name__ == '__main__':
-    save_and_delete_account()
